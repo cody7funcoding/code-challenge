@@ -1,3 +1,4 @@
+
  const findSum = function sumOfAll(arr) {
    var total = 0;
    for(var i in arr) {
@@ -76,11 +77,11 @@ console.log(largestPair([1,2,3,4,5,5,6,46,64,6]))
 const removeParenth = function(str) {
 
 
-  return str.slice(0,3).concat(str.slice(1 + 7));
+  return str.slice(0,8).concat(str.slice(6 + 7));
 }
 
 
-  console.log(removeParenth('ido(not)liketocode'))
+  console.log(removeParenth('codingis(not)fun'))
   
 
   const scoreScrabble = function(str) {
