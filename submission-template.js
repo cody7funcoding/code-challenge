@@ -93,3 +93,4 @@ const removeParenth = function(str) {
   return sum;
   }
 console.log(scoreScrabble('zebra'))
+   
